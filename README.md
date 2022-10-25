@@ -10,5 +10,5 @@
 * André Moreira 🖥
 * Caio Vinicius 🖥
 * Gustavo Saraiva 🖥
-* João Vítor 🖥
+* João Victor 🖥
 * Rafael Henrique 🖥

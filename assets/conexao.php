@@ -1,9 +1,9 @@
 <?php
 
-$database = "agenda";
+$database = "Agenda";
 $host = 'localhost';
-$username = 'root';
-$password = '';
+$username = 'aplicacao_agenda';
+$password = 'agenda123';
 
 try {
     $conexao = new PDO("mysq:host=$host;dbname=$database;", $username, $password);

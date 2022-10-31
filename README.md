@@ -12,3 +12,4 @@
 * Gustavo Saraiva 🖥
 * João Victor 🖥
 * Rafael Henrique 🖥
+* Ruan Henrique 🖥

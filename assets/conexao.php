@@ -1,6 +1,6 @@
 <?php
 
-$database = "";
+$database = "agenda";
 $host = 'localhost';
 $username = 'root';
 $password = '';

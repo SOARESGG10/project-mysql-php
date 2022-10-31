@@ -6,11 +6,11 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 -- Criando o banco de dados.
-create database Agenda
+CREATE DATABASE Agenda
 
 -- Usando o banco de dados.
 
-use Agenda;
+USE Agenda;
 
 -- Criando a a tabela.
 

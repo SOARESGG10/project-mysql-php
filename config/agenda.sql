@@ -18,7 +18,7 @@ CREATE TABLE  Pessoa (
 id INT unsigned PRIMARY KEY auto_increment,
 nome VARCHAR(255) NOT NULL,
 sexo CHAR(1) NOT NULL comment 'sexo: M, F, N',
-data_nacimento DATE NOT NULL comment 'Data de Nascimento',
+data_nascimento DATE NOT NULL comment 'Data de Nascimento',
 telefone decimal (13,0) NOT NULL comment 'telefone com DDD e codigo do pais (apenas digitos)',
 email VARCHAR (255) NOT NULL comment 'email',
 senha VARCHAR(255) NOT NULL comment 'senha do usuario'

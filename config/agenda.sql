@@ -32,5 +32,5 @@ SET senha=MD5('123456');
 
 -- Criando o usuário da aplicação.
 
-CREATE USER 'aplicacao_agenda'@'localhost' IDENTIFIED BY 'agenda123'; 
+CREATE USER 'aplicacao_agenda'@'localhost' IDENTIFIED WITH mysql_native_password BY 'agenda123'; 
 GRANT SELECT, INSERT, UPDATE, DELETE ON Agenda.* TO 'aplicacao_agenda'@'localhost';

@@ -1,70 +1,67 @@
-<?php
-
-include "../config/conectabd.php";
-include "funcoes.php";
-
-if ($usuario=verificaUsuarioLogado()){
-    
-} else {
-
-    header('Location: login.php');   
-
-}
-
-?>
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/home.css">
-    <title>Agenda</title>
+    <link rel="stylesheet" href="../assets/css/inserirPessoa.css">
+
+    <title>Projeto - Agenda</title>
 </head>
+
 <body>
-
-<div class="container">
-
-    <?php 
-    
-    cabecalho($usuario); 
-    
-    ?>
-
-    <h1>Agenda</h1>
-
-    <?php
-
-    $sql = 'select id, nome, email, telefone from Pessoa';
-
-    $statement = $pdo->prepare($sql);
-    $statement->execute();
-    $linhas = $statement->fetchAll(PDO::FETCH_ASSOC);
-
-    echo '<table border="1" class="table">';
-    echo '<tr>
-            <th>ID</th>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Telefone</th>
-            <th colspan="2">Ações</th></tr>';
-
-    foreach($linhas as $pessoa){
-        echo "<tr>".
-            "<td>".$pessoa["id"]."</td>".
-            "<td>".$pessoa["nome"]."</td>".
-            "<td>".$pessoa["email"]."</td>".
-            "<td>".$pessoa["telefone"]."</td>".
-            "<td><a href=".'"delete.php?id='.$pessoa["id"].'">Excluir</a></td>'.
-            "<td><a href=".'"template_editarPessoa.php?id='.$pessoa["id"].'">Editar</a></td>';
-        "</tr>";
-    }
-    echo '</table>';
-
-    ?>
-
-<button class="button"><a href="template_inserirPessoa.php">Incluir nova pessoa</a></button>
-
+            <form class="form" action="" method="POST">
+                <div class="div-titulo">
+                    <h2 class="titulo">Inserir Pessoa</h2>
+                </div>
+                <div class="inputs">
+                    <div class="input">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required>
+                    </div>
+                    <div class="input-genero">
+                        <label for="">Informe seu genêro</label>
+                        <div class="input-radio">
+                            <input type="radio" name="genero" id="masculino" value="M" required>
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="input-radio">
+                            <input type="radio" name="genero" id="feminino" value="F" required>
+                            <label for="feminino">Feminino</label>
+                        </div>
+                        <div class="input-radio">
+                            <input type="radio" name="genero" id="nao-informar" value="N" required>
+                            <label for="nao-informar">Prefiro não informar</label>
+                        </div>
+                    </div>
+                    <div class="input-data_nascimento">
+                        <label for="data_nascimento">Informe sua data de nascimento</label>
+                        <div class="inpit-date">
+                            <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="telefomne">Telefone</label>
+                        <input type="text" name="telefone" id="telefone" placeholder="Informe um telefone" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Informe um email" required>
+                    </div>
+                    <div class="input">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Informe uma senha" required>
+                    </div>
+                    <div class="input button">
+                        <input type="submit" class="botao" name="btn_cadastrar" value="Inserir pessoa">
+                    </div>
+                    <div class="input button">
+                        <a href="/pages/home.php"><input type="button" class="botao" name="btn_cadastrar" value="Voltar ao menu inicial"></a>
+                    </div>
+                </div>
+            </form>
+        </div>
 </body>
+
 </html>

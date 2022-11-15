@@ -1,6 +1,6 @@
 <?php
 
-include "conexao.php";
+include "../config/conexao.php";
 
 # Classe responsável por efetuar os comandos de CRUD.
 #       CREATE | READ | UPDATE | DELETE

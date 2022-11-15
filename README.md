@@ -5,7 +5,7 @@
 
 > Construir uma agenda web e salvar os dados cadastrados em um banco de dados.
 
-> Utilizar as linguagens <b>HTML, CSS, PHP e MySQL</b>
+> Utilizar as tecnologias <b>HTML, CSS, PHP e MySQL</b>
 
 ## 📀 | Funcionalidades
 

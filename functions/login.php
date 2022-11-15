@@ -1,6 +1,6 @@
 <?php
 
-include "conexao.php";
+include "../config/conexao.php";
 
 # Classe responsável pelo sistema de login.
 

@@ -1,4 +1,4 @@
-<h1 align='center'">Projeto de Agenda com integração com MySQL 💡</h1>
+<h1 align='center'">Projeto Agenda com integração com MySQL 💡</h1>
 
 ## 📔 | Objetivo
 

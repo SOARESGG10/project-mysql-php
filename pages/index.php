@@ -12,7 +12,7 @@ include  "../functions/login.php";
 
 
 if (isset($_COOKIE['user'])) :
-    $_SESSION['success'] = 'Redirencionado para o sistema';
+    $_SESSION['success'] = 'Redirecionado para o sistema';
     header('Location: ./home.php');
 endif;
 

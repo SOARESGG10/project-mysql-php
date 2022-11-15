@@ -74,9 +74,9 @@
 }
 
 .div-text .info {
-    background-color: #a52a2a;
-    border-radius: 0 0.5em 0 0.5em;
     color: #fff;
+    background-color: #721c24;
+    border-radius: 0 0.5em 0 0.5em;
     font-size: 1em;
     padding: 0.5em 4.5em;
     text-align: center;

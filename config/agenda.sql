@@ -1,3 +1,4 @@
+-- Processo de criação do banco de dados e da tabela para utilização do sistema.
 
 -- Configurações MySQL.
 

@@ -1,30 +1,35 @@
-# Projeto de PHP com integração com MySQL 💡
+<h1 align='center'">Projeto de PHP com integração com MySQL 💡</h1>
 
-### Objetivo:
+## 📔 | Objetivo
+
 
 > Construir uma agenda web e salvar os dados cadastrados em um banco de dados.
 
-> Utilizar as linguagens HTML, CSS, PHP e MySQL.
+> Utilizar as linguagens <b>HTML, CSS, PHP e MySQL</b>
 
-## Funcionalidades:
+## 📀 | Funcionalidades
 
-> Sistema de verificação de login.
-> Sistema de sessões e cookies.
+- <b>Sistema de verificação de login 🔒</b>
 
-> Inserir dados na agenda.
-> Atualizar dados na agenda.
-> Deletar dados na agenda.
+- <b>Sistema de sessões e cookies 🧑‍💻</b> 
 
-## Informações:
+- <b>Inserção dados na agenda 📑</b> 
 
--   Acesso ao sistema:
+- <b>Atualizar dados na agenda 🔃</b> 
 
-    > <b>OBS: Execute os passos no arquivo "agenda.sql" primeiramente.</b>
+- <b>Deletar dados na agenda ❌</b> 
 
-    > E-mail: root@teste.com
-    > Senha: root123
+## ⚠️ | Informações 
 
-    > <b>OBS: Não exclua o usuário "root".</b>
+-   <b>Acesso ao sistema:</b>
+
+    <b>OBS: Execute os passos no arquivo "agenda.sql" primeiramente.</b>
+
+    E-mail: ```root@teste.com```
+    
+    Senha: ```root123```
+
+    <b>OBS: Não exclua o usuário "root".</b>
 
 ### Participantes:
 

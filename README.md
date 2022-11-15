@@ -31,7 +31,7 @@
 
     <b>OBS: Não exclua o usuário "root".</b>
 
-### Participantes:
+## 🖥️ | Participantes:
 
 -   André Moreira 🖥
 -   Caio Vinicius 🖥

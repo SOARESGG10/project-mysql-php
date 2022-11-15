@@ -17,7 +17,7 @@ USE Agenda;
 
 CREATE TABLE  Pessoa (
 id INT unsigned PRIMARY KEY auto_increment COMMENT 'Identificador (PK)',
-nome VARCHAR(255) NOT NULL, 'Nome da pessoa'
+nome VARCHAR(255) NOT NULL COMMENT 'Nome da pessoa',
 sexo CHAR(1) NOT NULL COMMENT 'Sexo da pessoa (Masculino, Feminino, Não informado)',
 data_nascimento DATE NOT NULL COMMENT 'Data de nascimento da pessoa',
 telefone decimal (13,0) NOT NULL COMMENT 'Telefone com DDD e codigo do pais (apenas digitos)',

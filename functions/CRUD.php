@@ -61,7 +61,7 @@ class CRUD
 
             $query->bindParam(':nome', $nome);
             $query->bindParam(':sexo', $sexo);
-            $query->bindParam('data_nascimento', $data_nascimento);
+            $query->bindParam(':data_nascimento', $data_nascimento);
             $query->bindParam('telefone', $telefone);
             $query->bindParam(':email', $email);
             $query->bindParam(':senha', $senha);

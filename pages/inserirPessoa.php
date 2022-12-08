@@ -58,15 +58,15 @@ endif;
                     <div class="input-genero">
                         <label for="">Informe seu genêro</label>
                         <div class="input-radio">
-                            <input type="radio" name="genero" id="masculino" value="Masculino" required>
+                            <input type="radio" name="genero" id="masculino" value="M" required>
                             <label for="masculino">Masculino</label>
                         </div>
                         <div class="input-radio">
-                            <input type="radio" name="genero" id="feminino" value="Feminino" required>
+                            <input type="radio" name="genero" id="feminino" value="F" required>
                             <label for="feminino">Feminino</label>
                         </div>
                         <div class="input-radio">
-                            <input type="radio" name="genero" id="nao-informar" value="Não informado" required>
+                            <input type="radio" name="genero" id="nao-informar" value="N" required>
                             <label for="nao-informar">Prefiro não informar</label>
                         </div>
                     </div>

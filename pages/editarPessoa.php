@@ -69,15 +69,15 @@ endif;
                     <div class="input-genero">
                         <label for="">Informe seu genêro</label>
                         <div class="input-radio">
-                            <input type="radio" name="genero" id="masculino" value="Masculino" <?php echo $person[0]['sexo'] === "Masculino" ? "checked" : "" ?> required>
+                            <input type="radio" name="genero" id="masculino" value="M" <?php echo $person[0]['sexo'] === "M" ? "checked" : "" ?> required>
                             <label for="masculino">Masculino</label>
                         </div>
                         <div class="input-radio">
-                            <input type="radio" name="genero" id="feminino" value="Feminino" <?php echo $person[0]['sexo'] === "Feminino" ? "checked" : "" ?> required>
+                            <input type="radio" name="genero" id="feminino" value="F" <?php echo $person[0]['sexo'] === "F" ? "checked" : "" ?> required>
                             <label for="feminino">Feminino</label>
                         </div>
                         <div class="input-radio">
-                            <input type="radio" name="genero" id="nao-informar" value="Não informado" <?php echo $person[0]['sexo'] === "Não informado" ? "checked" : "" ?> required>
+                            <input type="radio" name="genero" id="nao-informar" value="N" <?php echo $person[0]['sexo'] === "N" ? "checked" : "" ?> required>
                             <label for="nao-informar">Prefiro não informar</label>
                         </div>
                     </div>
